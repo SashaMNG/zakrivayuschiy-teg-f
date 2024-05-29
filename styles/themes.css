@@ -6,8 +6,8 @@
 */
 
 :root.theme-dark {
-	--main-font: 'Inter-Variable';
-	--accent-font: 'Press Start 2P';
+	--main-font: 'Inter';
+	--accent-font: 'PressStart2P';
 	--wght-title: 785;
 	--wght-text: 465;
 	--background-color: #000;
@@ -23,13 +23,13 @@
 		),
 		repeating-linear-gradient(to top, #000 0px 2px, rgb(0 0 0 / 0) 2px 4px),
 		linear-gradient(#007f0c, #004306);
-	--outline-color: rgb(0 0 0 / 0.5);
+	--outline-color: rgb(0 0 0);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--main-font: 'Inter-Variable';
-		--accent-font: 'Press Start 2P';
+		--main-font: 'Inter';
+		--accent-font: 'PressStart2P';
 		--wght-title: 785;
 		--wght-text: 465;
 		--background-color: #000;
@@ -45,13 +45,13 @@
 			),
 			repeating-linear-gradient(to top, #000 0px 2px, rgb(0 0 0 / 0) 2px 4px),
 			linear-gradient(#007f0c, #004306);
-		--outline-color: rgb(0 0 0 / 0.5);
+		--outline-color: rgb(0 0 0);
 	}
 }
 
 :root.theme-light {
-	--main-font: 'Inter-Variable';
-	--accent-font: 'Press Start 2P';
+	--main-font: 'Inter';
+	--accent-font: 'PressStart2P';
 	--wght-title: 700;
 	--wght-text: 400;
 	--background-color: #fff;
@@ -71,5 +71,5 @@
 			rgb(211 211 211 / 0) 2px 4px
 		),
 		linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-	--outline-color: rgb(255 255 255 / 0.5);
+	--outline-color: rgb(255 255 255);
 }
