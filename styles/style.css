@@ -19,7 +19,6 @@
 
 .page {
 	min-inline-size: 320px;
-	max-inline-size: 1440px;
 	min-block-size: 100dvb;
 	display: grid;
 	place-content: center;
@@ -116,7 +115,7 @@
 	opacity: 60%;
 }
 
-.theme-menu__button:enabled::after {
+.theme-menu__button::after {
 	content: '';
 	display: block;
 	block-size: 2px;
@@ -124,9 +123,10 @@
 	opacity: 60%;
 	transform: scaleX(0);
 	transition: transform 0.3s ease;
+	transform-origin: left;
 }
 
-.theme-menu__button:enabled:focus-visible::after {
+.theme-menu__button:focus-visible::after {
 	transform: scaleX(1);
 }
 
@@ -346,7 +346,6 @@
 }
 
 .dialog {
-	max-inline-size: 353px;
 	padding: 30px;
 	position: fixed;
 	inset: 0;
@@ -382,7 +381,7 @@
 }
 
 .dialog__text {
-	max-inline-size: 234px;
+	inline-size: 234px;
 	color: var(--accent-color);
 	font-size: var(--button-font-size);
 	line-height: calc(21 / 14);
@@ -392,7 +391,6 @@
 }
 
 .dialog__button {
-	inline-size: 293px;
 	padding: 9px 17px;
 	text-transform: uppercase;
 }
@@ -410,11 +408,7 @@
 		inline-size: 28px;
 	}
 
-	.dialog {
-		max-inline-size: 341px;
-	}
-
-	.dialog__button {
-		inline-size: 257px;
+	.dialog__text {
+		inline-size: 198px;
 	}
 }
