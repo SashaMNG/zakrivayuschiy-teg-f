@@ -1,5 +1,7 @@
 # Лендинг для владельца собаки
 
+Сайт: https://sashamng.github.io/zakrivayuschiy-teg-f/
+
 ** Стек: HTML, CSS, Figma, Pixel Perfect 
 
 ** Задачи, которые были реализованы: 
